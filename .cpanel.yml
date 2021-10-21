@@ -1,0 +1,22 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/etakappanu/public_html/
+    - /bin/cp -R _about $DEPLOYPATH
+    - /bin/cp -R _corporate $DEPLOYPATH
+    - /bin/cp -R _data $DEPLOYPATH
+    - /bin/cp -R _includes $DEPLOYPATH
+    - /bin/cp -R _initiates $DEPLOYPATH
+    - /bin/cp -R _layouts $DEPLOYPATH
+    - /bin/cp -R _plugins $DEPLOYPATH
+    - /bin/cp -R _sass $DEPLOYPATH
+    - /bin/cp -R _service $DEPLOYPATH
+    - /bin/cp -R _talks $DEPLOYPATH
+    - /bin/cp -R .idea $DEPLOYPATH
+    - /bin/cp -R about $DEPLOYPATH
+    - /bin/cp -R corporate $DEPLOYPATH
+    - /bin/cp -R initiates $DEPLOYPATH
+    - /bin/cp -R script $DEPLOYPATH
+    - /bin/cp -R service $DEPLOYPATH
+    - /bin/cp -R talks $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
